@@ -7,6 +7,7 @@ var config = require('./config');
 //get access tokens and keys
 var T = new Twit(config)
 
+// params for the get function of Twit
 var params ={
     q:'fuck',
     count:2
