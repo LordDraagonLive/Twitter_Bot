@@ -1,0 +1,27 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "A twitter bot created using Twitter API and Nodejs",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node Search_bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordDraagonLive/Twitter_Bot.git"
+  },
+  "keywords": [
+    "Twitter",
+    "Bot"
+  ],
+  "author": "Buddhi Adhikari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordDraagonLive/Twitter_Bot/issues"
+  },
+  "homepage": "https://github.com/LordDraagonLive/Twitter_Bot#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
