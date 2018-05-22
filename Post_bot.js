@@ -15,7 +15,34 @@ var stream = T.stream('user');
 // stream.on('follow',followed);
 
 //Tweets with an image
-tweetWithAnImage();
+// tweetWithAnImage();
+
+//Stream a tweet reply for a mentioned tweet
+//'tweet' - will get a new tweet which is posted by a person you follow
+stream.on('tweet',tweetaReply);
+
+function tweetaReply(eventMsg){
+    //save to JSON file to analyze data
+    // var json = JSON.stringify(eventMsg,null,2);
+    // fs.writeFileSync("Assets/files/tweet.json",json)
+    console.log('New Tweet');
+
+    //gets the screen name if it is in reply to someone
+    var inReplyTo = eventMsg.in_reply_to_screen_name;
+    //get the tweet msg's text
+    var tweetTextMsg = eventMsg.text;
+    //who tweeted the msg
+    var tweetIsBy = eventMsg.user.screen_name;
+
+    console.log('To '+inReplyTo+' from '+tweetIsBy);
+
+    if(inReplyTo==='buddhiadikari2'){
+        var newTweet = '@'+tweetIsBy+ ' Thank you for the tweet! #TwitterBot';
+        tweetWithMsg(newTweet);
+    }
+    
+
+}
 
 //followed function
 function followed(eventMsg){
@@ -23,7 +50,7 @@ function followed(eventMsg){
     var screenName = eventMsg.source.screen_name;
 
     console.log('@'+screenName+'followed you!')
-    tweetIfFollowed('. @'+ screenName + ' Thank you for following, Have a great day!');
+    tweetWithMsg('. @'+ screenName + ' Thank you for following, Have a great day!');
 }
 
 //call tweetIt() every 20 seconds
@@ -47,11 +74,10 @@ function tweetIt(){
         }else{
             console.log('Tweeted Succesfully!');
         }
-
     }
 }
 
-function tweetIfFollowed(msg){
+function tweetWithMsg(msg){
 
     var tweet = {
         status: msg
