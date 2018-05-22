@@ -37,7 +37,7 @@ function tweetaReply(eventMsg){
     console.log('To '+inReplyTo+' from '+tweetIsBy);
 
     if(inReplyTo==='buddhiadikari2'){
-        var newTweet = '@'+tweetIsBy+ ' Thank you for the tweet! #TwitterBot #BAC #1';
+        var newTweet = '@'+tweetIsBy+ ' Thank you for the tweet! #TwitterBot #BAC #2';
         tweetWithMsg(newTweet);
     }
     
