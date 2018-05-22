@@ -37,7 +37,7 @@ function tweetaReply(eventMsg){
     console.log('To '+inReplyTo+' from '+tweetIsBy);
 
     if(inReplyTo==='buddhiadikari2'){
-        var newTweet = '@'+tweetIsBy+ ' Thank you for the tweet! #TwitterBot';
+        var newTweet = '@'+tweetIsBy+ ' Thank you for the tweet! #TwitterBot #BAC';
         tweetWithMsg(newTweet);
     }
     
@@ -50,7 +50,7 @@ function followed(eventMsg){
     var screenName = eventMsg.source.screen_name;
 
     console.log('@'+screenName+'followed you!')
-    tweetWithMsg('. @'+ screenName + ' Thank you for following, Have a great day!');
+    tweetWithMsg('. @'+ screenName + ' Thank you for following, Have a great day mate!');
 }
 
 //call tweetIt() every 20 seconds
@@ -87,7 +87,7 @@ function tweetWithMsg(msg){
 
     function tweeted(err, data, response){
         if(err){
-            console.log('An error occured! BAC!');
+            console.log(err+' \n An error occured! BAC!');
         }else{
             console.log('Tweeted Succesfully!');
         }
