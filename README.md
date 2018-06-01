@@ -1,6 +1,5 @@
 # Twitter_Bot
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://github.com/LordDraagonLive/Twitter_Bot/blob/master/LICENSE)
-
 [![built with Javascript](https://img.shields.io/badge/built%20with-Javascript-red.svg?style=plastic)](https://www.javascript.com/)
 
 ## Description
