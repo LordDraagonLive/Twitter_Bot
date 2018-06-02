@@ -4,6 +4,8 @@
 [![built with Node.js](https://img.shields.io/badge/built%20with-Nodejs-green.svg?style=plastic)](https://nodejs.org/en/)
 [![built with Twit](https://img.shields.io/badge/built%20with-Twit-blue.svg?style=plastic)](https://github.com/ttezel/twit)
 [![built with Twitter API](https://img.shields.io/badge/built%20with-Twitter%20API-blue.svg?style=plastic)](https://developer.twitter.com/en/docs.html)
+[![built with Processing 3](https://img.shields.io/badge/built%20with-Processing%203-002e63.svg?style=plastic)](https://github.com/processing/processing)
+[![hosted in Heroku](https://img.shields.io/badge/hosted%20in-Heroku-6E3CAE.svg?style=plastic)](https://dashboard.heroku.com/apps)
 
 
 
