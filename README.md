@@ -2,8 +2,8 @@
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://github.com/LordDraagonLive/Twitter_Bot/blob/master/LICENSE)
 [![built with Javascript](https://img.shields.io/badge/built%20with-Javascript-green.svg?style=plastic)](https://www.javascript.com/)
 [![built with Node.js](https://img.shields.io/badge/built%20with-Nodejs-green.svg?style=plastic)](https://nodejs.org/en/)
-[![built with Twit](https://img.shields.io/badge/built%20with-twit-blue.svg?style=plastic)](https://github.com/ttezel/twit)
-[![built with Twitter API](https://img.shields.io/badge/built%20with-twitter%20API-blue.svg?style=plastic)](https://developer.twitter.com/en/docs.html)
+[![built with Twit](https://img.shields.io/badge/built%20with-Twit-blue.svg?style=plastic)](https://github.com/ttezel/twit)
+[![built with Twitter API](https://img.shields.io/badge/built%20with-Twitter%20API-blue.svg?style=plastic)](https://developer.twitter.com/en/docs.html)
 
 
 
