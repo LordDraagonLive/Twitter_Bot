@@ -3,7 +3,7 @@
 [![built with Javascript](https://img.shields.io/badge/built%20with-Javascript-green.svg?style=plastic)](https://www.javascript.com/)
 [![built with Node.js](https://img.shields.io/badge/built%20with-Nodejs-green.svg?style=plastic)](https://nodejs.org/en/)
 [![built with Twit](https://img.shields.io/badge/built%20with-twit-blue.svg?style=plastic)](https://github.com/ttezel/twit)
-[![built with Twitter API](https://img.shields.io/badge/built%20with-twitter-API-blue.svg?style=plastic)](https://developer.twitter.com/en/docs.html)
+[![built with Twitter API](https://img.shields.io/badge/built%20with-twitter%20API-blue.svg?style=plastic)](https://developer.twitter.com/en/docs.html)
 
 
 
